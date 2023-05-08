@@ -3,5 +3,5 @@ from django.urls import path
 
 urlpatterns = [
     path('', views.home),
-    path('confirm', views.confirm)
+    path('ccu409220029', views.ccu409220029_function)
 ]
