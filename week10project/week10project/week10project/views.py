@@ -6,7 +6,7 @@ def home(request):
 
 from django.http import HttpResponse
 
-def confirm(request):
+def ccu409220029_function(request):
     user=request.GET['UserName']
     mail=request.GET['UserMail']
     return HttpResponse(user + ', 你輸入的email是' + mail)
