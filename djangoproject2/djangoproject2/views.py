@@ -9,7 +9,7 @@ from django.http import HttpResponse
 
 from djangoproject2.models import User
 
-def ccu410123456_function(request):
+def ccu409220029_function(request):
     user=request.GET['UserName']
     mail=request.GET['UserMail']
 
